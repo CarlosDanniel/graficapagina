@@ -1,0 +1,131 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	width: 100%;
+	height: 757px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container {
+	display: flex;
+	border-radius: 30px;
+	width: 1184px;
+	height: 600px;
+}
+.logo {
+	background-color: #000E5C;
+	color: white;
+	width: 422px;
+	height: 600px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	text-align: center;
+}
+.logo img {
+	margin-top: 97px;
+}
+.logo h1 {
+	font-family: arial black;
+	font-size: 60px;
+	margin: 0;
+}
+.logo h2 {
+	font-family: arial;
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-style: italic;
+}
+.form {
+	background-color: #ECECEC;
+	width: 761px;
+	height: 600px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+nav {
+	width: 409px;
+	height: 471px;
+}
+nav h1 {
+	font-family: arial black;
+	font-size: 40px;
+	color: #000E5C;
+	margin: 10px;
+}
+nav h2 {
+	font-family: arial;
+	color: #969797;
+	font-size: 15px;
+	margin: 10px;
+}
+.nome, .email, .senha {
+	margin-top: 15px;
+	background-color: #ADAEAE;
+	width: 389px;
+	height: 56px;
+	display: flex;
+	align-items: center;
+	font-family: arial;
+	font-size: 20px;
+	color: #4E4E4E;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+.nome:hover, .email:hover, .senha:hover, .text:hover {
+	background-color: #969797;
+}
+nav img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+nav h3 {
+	font-family: arial;
+	font-size: 15px;
+	color: #676766;
+}
+nav a {
+	margin-left: 6px;
+	color: #676766;
+}
+nav a:hover {
+	color: #000E5C;
+}
+.text {
+	margin-left: 10px;
+	background-color: #ADAEAE;
+	border: none;
+	height: 46px;
+	width: 250px;
+	outline: none;
+	font-size: 20px;
+}
+nav button {
+	color: white;
+	background-color: #000E5C;
+	border-radius: 80px;
+	border: none;
+	width: 150px;
+	height: 37px;
+}
+.logo button {
+	color: white;
+	background-color: #000E5C;
+	border-radius: 80px;
+	border: solid 2px white;
+	width: 150px;
+	height: 37px;
+}
+.logo button:hover {
+	color: black;
+	background-color: white;
+}
+nav button:hover {
+	background-color: #969797;
+}

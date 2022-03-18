@@ -1,0 +1,120 @@
+body {
+
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 757px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	width: 1184px;
+	height: 600px;
+	background-color: #ECECEC;
+	border-radius: 30px;
+}
+.topo {
+	text-align: center;
+	font-size: 30px;
+	font-family: arial black;
+	color: #000E5C;
+}
+.formu {
+	display: flex;
+}
+.esquerda {
+	width: 50%;
+	height: 435px;
+	border-bottom-left-radius: 30px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.direita {
+	width: 50%;
+	height: 435px;
+	border-bottom-right-radius: 30px;
+	display: flex;
+	justify-content: center;
+}
+fieldset {
+	width: 420px;
+	height: 360px;
+	border-radius: 30px;
+	border: solid 5px black;
+	text-align: center;
+}
+legend {
+	font-size: 20px;
+	font-family: arial black;
+}
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 17px;
+}
+.nome {
+	width: 346px;
+	height: 73px;
+	text-align: left;
+	font-family: arial black;
+	font-size: 20px;
+}
+.nome input {
+	width: 330px;
+	height: 35px;
+	outline: none;
+	background-color: #BFBFBF;
+	border: none;
+	font-size: 22px;
+}
+.nomes {
+	display: flex;
+	width: 346px;
+	height: 73px;
+	font-family: arial black;
+	font-size: 20px;
+}
+.nomem {
+	width: 150px;
+	height: 73;
+	text-align: left;
+	justify-content: center;
+	margin-right: 30px;
+}
+.nomem input {
+	width: 150px;
+	height: 35px;
+	outline: none;
+	background-color: #BFBFBF;
+	border: none;
+	font-size: 22px;
+}
+#termo {
+	margin: 0px;
+	padding: 0px;
+}
+.dacesso {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: arial black;
+	font-size: 13px;
+	margin-top: 20px;
+}
+fieldset button {
+	color: white;
+	background-color: #000E5C;
+	border-radius: 80px;
+	border: none;
+	width: 150px;
+	height: 37px;
+	margin-top: 20px;
+}
+fieldset button:hover {
+	background-color: #969797;
+}

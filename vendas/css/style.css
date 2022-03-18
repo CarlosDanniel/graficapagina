@@ -1,0 +1,364 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.site {
+	display: none;
+}
+.mostrar__site {
+	display: block;
+}
+.mostrarsite {
+	background-color: #ff6c00;
+	border: none;
+	width: 300px;
+	height: 100px;
+	border-radius: 100px;
+	font-size: 20px;
+	color: white;
+}
+.mostrarsite:hover {
+	background-color: blue;
+	cursor: pointer;
+}
+.mostrarint {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mostrar {
+	display: none;
+}
+.topo {
+	background-color: #ff6c00;
+	width: 100%;
+	height: 40px;
+	display: flex;
+}
+.fav {
+	width: 50%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: courier;
+	font-size: 12px;
+}
+.fav a {
+	align-items: center;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: courier;
+	color: black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.fav div {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+}
+.fav p {
+	margin-left: 5px;
+}
+.lang {
+	width: 50%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+.langint{
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 150px;
+}
+.scroll {
+	border-radius: 20px;
+	position: fixed;
+	right: 10px;
+	z-index: 999;
+	cursor: pointer;
+	display: none;
+}
+.lang select {
+	background-color: #ff6c00;
+	border: none;
+	outline: none;
+	margin-left: 20px;
+	font-family: courier;
+	font-size: 15px;
+}
+.lang select {
+	cursor: pointer;
+}
+.topoinf {
+	width: 100%;
+	height: 85px;
+	display: flex;
+}
+.logo {
+	width: 50%;
+	height: 85px;
+	display: flex;
+	align-items: center;
+}
+.logo img {
+	margin-left: 300px;
+}
+.carr {
+	width: 50%;
+	height: 85px;
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+.carr p {
+	margin-left: 5px;
+	font-family: courier;
+	font-size: 12px;
+	margin-right: 200px;
+}
+.carr a {
+	align-items: center;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: courier;
+	color: black;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+nav {
+	width: 100%;
+	height: 45px;
+	background-color: #000E5C;
+}
+.menu {
+	display: flex;
+	justify-content: center;
+}
+.menu ul {
+	margin-top: 11px;
+	display: flex;
+	align-items: center;
+	color: white;
+	list-style: none;
+	font-size: 20px;
+	font-family: courier;
+}
+.menu li {
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	align-items: center;
+}
+.menu li:hover {
+	background-color: lightblue;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.back_ {
+	background-image: url('../image/fundo.png');
+	height: 547px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: flex-end;
+}
+.of1 {
+	background-image: url(../image/fundo2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.of2 {
+	background-image: url(../image/fundo3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.of3 {
+	background-image: url(../image/fundo4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.fdinicio {
+	width: 100%;
+	height: 282px;
+	background-color: #000E5C;
+	transform: skewY(2deg);
+}
+.bots {
+	width: 100%;
+	transform: skewY(-2deg);
+	display: flex;
+	justify-content: center;
+}
+.botao {
+	width: 15px;
+	height: 15px;
+	border-radius: 7px;
+	background-color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.nave {
+	width: 100%;
+	height: 235px;
+	transform: skewY(-1deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: courier;
+	font-size: 16px;
+	text-align: center;
+}
+.bot1, .bot2, .bot3 {
+	width: 150px;
+	height: 100px;
+	border: solid 2px white;
+	margin-left: 60px;
+	cursor: pointer;
+}
+.bot1 p, .bot2 p, .bot3 p {
+	margin: 0px;
+}
+.bot1 img, .bot2 img, .bot3 img {
+	margin-top: 5px;
+}
+article {
+	width: 100%;
+	height: 570px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.last p {
+	font-family: courier;
+	font-size: 25px;
+	margin: 0px;
+}
+.ult {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+#margemdop {
+	margin-bottom: 20px;
+}
+.lastp {
+	width: 180px;
+	height: 250px;
+	border: solid 2px gray;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	background-color: lightgray;
+}
+.marcas {
+	width: 100%;
+	height: 282px;
+	background-color: #000E5C;
+	transform: skewY(2deg);
+	display: flex;
+	align-items: center;
+}
+.marcasint {
+	width: 100%;
+	height: 200px;
+	transform: skewY(-1deg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.marcascont {
+	width: 280px;
+	height: 140px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: courier;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.marcascont p {
+	margin: 0px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.marcasimg {
+	width: 265px;
+	height: 65px;
+	border: solid 2px white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000550;
+	cursor: pointer;
+}
+.prod {
+	width: 100%;
+	height: 667px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#pprin {
+	font-family: courier;
+	font-size: 25px;
+}
+.conttopo, .contmeio, .contfim {
+	width: 1000px;
+	height: 130px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contdentro {
+	width: 315px;
+	height: 115px;
+	margin-left: 8px;
+	margin-right: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.quadradop {
+	width: 104px;
+	height: 104px;
+	border: solid 2px gray;
+}
+.desc p {
+	font-size: 20px;
+	font-family: courier;
+	margin: 0px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+.desc img {
+	margin-left: 10px;
+}
+footer {
+	width: 100%;
+	height: 170px;
+	background-color: #000E5C;
+}
